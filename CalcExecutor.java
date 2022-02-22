@@ -10,6 +10,8 @@ public class CalcExecutor{
 			System.out.println("Result of addition is : " + calculator.add(a, b));
 		else if(args[1].equals("-"))
 			System.out.println("Result of subtraction is : " + calculator.subtract(a, b));
+		else if(args[1].equals("*"))
+			System.out.println("Result of subtraction is : " + calculator.multiply(a, b));
 		
 	}
 }
